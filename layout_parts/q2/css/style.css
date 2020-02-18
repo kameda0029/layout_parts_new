@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+div.bluebox{
+  width: 940px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+  
+}
 
-/* 回答はここに書いてね */
+div.left{
+  background-color: #eff3f4;
+  padding: 20px 20px 0 20px;
+  
+}
+
+div.right{
+  background-color: #eff3f4;
+  padding: 0 20px 20px 20px  ;
+
+}
+
+
+.size_test{
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+  
+}
+
+.size_test2{
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+

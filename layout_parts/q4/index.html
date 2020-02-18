@@ -9,6 +9,41 @@
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css">
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/base.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      .dtable1{
+        display:table;
+      }
+
+      .dtable_c1{
+        display: table-cell;
+        border: 1px solid #666
+      }
+
+      .dtable_c2{
+        display: table-cell;
+        border: 1px solid #666
+      }
+
+      .dtable_c3{
+        display: table-cell;
+        border: 1px solid #666
+      }
+
+      .dtable_c4{
+        display: table-cell;
+        border: 1px solid #666
+      }
+
+      .dtable_c5{
+        display: table-cell;
+        border: 1px solid #666
+      }
+
+      .dtable_c6{
+        display: table-cell;
+        border: 1px solid #666
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -34,15 +69,27 @@
         <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
         <!-- 新たにタグは追加しなくてもできます。 -->
         <div class="q4">
-          <div>
-            <div>固定</div>
-            <div>可変</div>
-            <div>固定</div>
+          <div class="dtable">
+            <div class="cell dtable_c1">
+              <div class="test_text">固定</div>  
+            </div>
+            <div class="cell dtable_c2">
+              <div class="test_text">可変</div>
+            </div>
+            <div class="cell dtable_c3">
+              <div class="test_text">固定</div>
+            </div>
           </div>
-          <div>
-            <div>可変</div>
-            <div>可変</div>
-            <div>固定</div>
+          <div class="dtable">
+            <div class="cell dtable_c4">
+              <div class="test_text">可変</div>
+            </div>
+            <div class="cell dtable_c5">
+              <div class="test_text">可変</div>
+            </div>
+            <div class="cell dtable_c6">
+              <div class="test_text">固定</div>
+            </div>  
           </div>
         </div>
         <!-- 回答はクラスq4の要素の中に書いてね -->
