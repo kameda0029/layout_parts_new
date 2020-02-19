@@ -7,13 +7,16 @@
 p{
   text-align: center;
 }
+.celltextbox{
+  text-align: center;
+}
 
 .bluebox1{
+  display: inline-block;
   width: 90px;
   padding: 10px;
-  background-color: #e6f2ff;
-  text-align: center;
-  margin-left:100px ;
+  background-color: #e6f2ff; 
+  
 }
 
 .bluebox2{
@@ -24,24 +27,63 @@ p{
   margin: 0 auto;
 }
 
+.cellbox{
+  display: table;
+}
+
 .bluebox3{
   background-color: #ffffff;
   text-align: center;
   padding: 10px;
   display: inline-block;
-  margin-left: 120px;
-  margin-top: 80px;
+  display: table-cell;
+  
+}
+.q6--around{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bluebox4{
   background-color: #ffffff;
   padding: 10px;
-  display: inline-block;
   text-align: center;
-  margin-left: 130px;
-  margin-top: 85px;
 }
 
-.q6__box__inner{
-  margin: 80px 20px 20px 100px;
+.is-stable{
+  position: relative;
 }
+
+.leftbox{
+  background-color:#e6f2ff ;
+  width: 110px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  line-height: 25px;
+}
+
+.whitebox{
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.rightbox{
+  position: absolute;
+  width: 110px;
+  top: 50%;
+  left: 50%;
+  height: 30px;
+  background-color:#e6f2ff ;
+  transform: translateY(-50%) translateX(-50%);
+  line-height: 25px;
+
+}
+

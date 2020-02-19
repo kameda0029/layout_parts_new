@@ -1,35 +1,39 @@
 @charset "UTF-8";
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 div.bluebox{
-  width: 940px;
+  width: 900px;
   background-color: #eff3f4;
   margin: 0 auto;
-  
+  padding: 20px;
 }
 
 div.left{
   background-color: #eff3f4;
-  padding: 20px 20px 0 20px;
+  float: left;
+  margin: 0 20px 10px 0 ;
   
 }
+
+/* div.image2{
+  padding: 0 20px 10px 0;
+} */
 
 div.right{
   background-color: #eff3f4;
-  padding: 0 20px 20px 20px  ;
-
+  float: right;
+  margin: 0 0 10px 20px
 }
 
-
-.size_test{
+p.size_test{
   font-size: 18px;
   line-height: 22px;
-  word-break: break-all;
-  
+  word-break: break-all; 
 }
 
-.size_test2{
-  font-size: 18px;
-  line-height: 22px;
-  word-break: break-all;
-}
 

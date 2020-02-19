@@ -1,23 +1,23 @@
 @charset "UTF-8";
 
-.clearfix::after {
+.clearfix:after {
   content: "";
   display: block;
   clear: both;
 } 
 
 div.bigbox{
-  width :940px;
-  background-color:#eaf4ff;
+  width :900px;
+  background-color:#eff3f4;
   margin: 0 auto;
-  clear: both;
   padding: 20px;
 }
 
 div.blue{
-  width :270px;
+  width :230px;
   background-color: #3274ae;
   float: left;
+  padding: 20px;
   margin-left: 20px;
 }
 div.blue:first-child{
@@ -27,7 +27,6 @@ div.blue:first-child{
 div.whiteblue{
   width: 170px;
   background-color: #eaf4ff;
-  margin: 20px;
   padding:20px;
   border:10px solid #022336;
   
@@ -36,7 +35,7 @@ div.whiteblue{
 p.text{
   font-size: 16px;
   line-height: 16px;
-
+}
   
 
 

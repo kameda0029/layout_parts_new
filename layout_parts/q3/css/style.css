@@ -1,24 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table{
+table.calorie{
   margin: 0 auto;
   border: solid 1px #dedede;
   border-collapse: collapse;
+  line-height: 26px;
+  font-size: 18px;
+  table-layout: fixed;
+  width: 100%;
 }
 
-th{
+.calorie th{
   border: solid 1px #dedede;
   padding: 10px;
   background-color: #2244aa;
   color: #ffffff;
 }
 
-tr{
+.calorie tr{
   border: solid 1px #dedede;
+  line-height: 26px;
 }
 
-td{
+.calorie td{
   border: solid 1px #dedede;
   padding: 10px 30px 10px 30px;
   text-align: center;
@@ -32,7 +37,7 @@ td:first-child{
 }
 
 tr:last-child{
-  border: dashed 2px #000;
+  border-top: dashed 2px #000;
 }
 
 /* 回答はここに書いてね */
