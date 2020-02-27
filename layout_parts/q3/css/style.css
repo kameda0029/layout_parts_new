@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table.calorie{
+.calorie{
   margin: 0 auto;
   border: solid 1px #dedede;
   border-collapse: collapse;
@@ -29,15 +29,19 @@ table.calorie{
   text-align: center;
 }
 
-tr:nth-child(odd){background-color: #ecf1f2;}
+.calorie tr:nth-child(even){background-color: #ecf1f2;}
 
-td:first-child{
+.calorie td:first-child{
   background-color: #2244aa;
   color:#ffffff;
 }
 
-tr:last-child{
+.calorie tr:last-child{
   border-top: dashed 2px #000;
+}
+
+.calorie tr:first-child{
+  border-top:  solid 1px #dedede;
 }
 
 /* 回答はここに書いてね */

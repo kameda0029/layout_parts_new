@@ -6,25 +6,26 @@
   clear: both;
 } 
 
-div.bigbox{
+.bigbox{
   width :900px;
   background-color:#eff3f4;
   margin: 0 auto;
   padding: 20px;
 }
 
-div.blue{
+.blue{
   width :230px;
   background-color: #3274ae;
   float: left;
   padding: 20px;
   margin-left: 20px;
 }
-div.blue:first-child{
+
+.blue:first-child{
   margin-left: 0px;
 }
 
-div.whiteblue{
+.whiteblue{
   width: 170px;
   background-color: #eaf4ff;
   padding:20px;
@@ -32,7 +33,7 @@ div.whiteblue{
   
 }
 
-p.text{
+.text{
   font-size: 16px;
   line-height: 16px;
 }
