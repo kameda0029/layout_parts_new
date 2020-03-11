@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.hukibox{
+  width: 500px;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color:#fff;
+  border: 5px solid #222;
+  position: relative;
+}
 
+.hukibox:before{
+  content:"";
+  position: absolute;
+  bottom: -33px;
+  left: 35px;
+  border: 16px solid transparent;
+  border-top: 12px solid #222;
+  z-index: 2;
+}
+
+.hukibox:after{
+  content:"";
+  position: absolute;
+  bottom: -26px;
+  left: 37px;
+  border: 14px solid transparent;
+  border-top: 12px solid #fff;
+  z-index: 3;
+}
+
+.texsize{
+  font-size: 166px;
+  line-height: 16px;
+}
 /* 回答はここに書いてね */
